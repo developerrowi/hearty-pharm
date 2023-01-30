@@ -1,12 +1,8 @@
-# This is a basic workflow to automatically build a Svelte app and deploy it to GitHub Pages
-
 name: Deploy to GitHub Pages
 
-on:
-  push:
-    branches: [ master, gh-pages ]
-  workflow_dispatch:
-
+on: [ push, pull_request]
+permissions:
+  contents: write
 env:
   VITE_SUPABASE_URL: ${{secrets.VITE_SUPABASE_URL}}
   VITE_SUPABASE_ANON_KEY: ${{secrets.VITE_SUPABASE_ANON_KEY}}
@@ -25,11 +21,7 @@ jobs:
       - name: Install and Build
         run: npm run build
           
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v1
-        with: 
-          permissions:
-            contents: read
-            pages: write
-            id-token: write
+      - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: dist # The folder the action should deploy.
