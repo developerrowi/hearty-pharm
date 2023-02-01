@@ -29,6 +29,13 @@
 
     async function openModal() {
         showAddModal = true
+        storeAddProduct.set({
+          category: "",
+          name: "Buscopan",
+          price: null,
+          qty: null,
+          supplier_price: null
+        })
 
     }
     
