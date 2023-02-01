@@ -106,8 +106,8 @@
 
 <div class="root">
   {#if $authUser?.id}
-    <div class="grid grid-cols-6 gap-1">
-      <div>
+    <div class="grid grid-cols-6 gap-1 flex justify-end">
+      <div class="col-span-1">
         <Sidebar />
       </div>
       

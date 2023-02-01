@@ -111,7 +111,7 @@ on:click={() =>openModal()}> Add New </button>
               <div class="flex items-center justify-between">
                 <button 
                     on:click={() => {insertNewProduct()}}
-                    class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="button">
+                    class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" type="button">
                   Add
                 </button>
               </div>
@@ -130,7 +130,7 @@ on:click={() =>openModal()}> Add New </button>
   display: block; /* Hidden by default */
   position: fixed; /* Stay in place */
   z-index: 50; /* Sit on top */
-  padding-top: 100px; /* Location of the box */
+  padding-top: 20px; /* Location of the box */
   left: 0;
   top: 0;
   width: 100%; /* Full width */

@@ -14,7 +14,7 @@
     };
 </script>
 
-<div class="w-60 h-full shadow-lg bg-white px-1 absolute main-nav">
+<div class="h-full shadow-lg bg-white px-1 absolute main-nav">
     <div class="grid mt-10 justify-center">
         <h4> Hearty Pharmacy</h4>
     </div>
