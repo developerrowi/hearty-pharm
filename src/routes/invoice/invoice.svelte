@@ -72,7 +72,7 @@
 
 <InvoiceDetails bind:this={detailsMod} />
 
-<div class="bg-white  border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+<div class="bg-white  border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 table-container">
     <div class="relative overflow-x-auto shadow-lg sm:rounded-lg p-2 custom-table">
         <table class="w-full text-sm text-left text-gray-500 dark:text-gray-400">
             <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">

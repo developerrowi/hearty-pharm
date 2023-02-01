@@ -85,16 +85,16 @@ html {
 html::-webkit-scrollbar,
 body::-webkit-scrollbar {
     width: 0px;
-    background-color: #1d2531;
+    background-color: #eeeeee;
 }
 html::-webkit-scrollbar-thumb,
 body::-webkit-scrollbar-thumb {
-    background-color: #1d2531;
+    background-color: #eeeeee;
     width: 0px;
 }
 ::-webkit-scrollbar {
     width: 4px;
-    background-color: #1d2531;
+    background-color: #eeeeee;
 }
 ::-webkit-scrollbar-thumb {
     background-color: rgb(88, 88, 88);

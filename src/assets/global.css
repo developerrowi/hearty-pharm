@@ -298,3 +298,9 @@ ul {
 	text-decoration: none;
 	cursor: pointer;
   }
+
+  .table-container {
+	overflow: auto;
+	max-height: 500px;
+	scrollbar-color: var(--main-color) !important;
+  }
