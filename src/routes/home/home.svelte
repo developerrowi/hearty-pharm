@@ -28,7 +28,7 @@
 
 </div>
 
-<div class="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 mt-10">
+<div class="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 mt-10 low-inventory-card">
     <a href="#">
         <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Low Inventory:</h5>
     </a>
@@ -43,4 +43,8 @@
 	.home-root {
 		position: relative;
 	}
+    .low-inventory-card {
+        height: 600px;
+        overflow-y: auto;
+    }
 </style>
