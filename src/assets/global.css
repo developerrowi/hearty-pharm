@@ -304,3 +304,7 @@ ul {
 	max-height: 500px;
 	scrollbar-color: var(--main-color) !important;
   }
+
+  .dashboard-card {
+	background-color: #ffe4c4;
+  }

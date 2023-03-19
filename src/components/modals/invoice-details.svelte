@@ -109,7 +109,7 @@
                                 </td>
                                 <td class="w-4 p-4">
                                     <div class="flex items-center">
-                                        <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 border border-blue-700 rounded mt-5" on:click={() =>removeInvoice(i)}>Delete</button>
+                                        <!-- <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 border border-blue-700 rounded mt-5" on:click={() =>removeInvoice(i)}>Delete</button> -->
                                     </div>
                                 </td>
                             </tr>
